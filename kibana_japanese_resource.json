@@ -1,0 +1,502 @@
+[
+  {
+    "path": "src/core_plugins/kibana/index.js",
+    "en": "title: 'Discover'",
+    "jp": "title: '検索'"
+  },
+  {
+    "path": "src/core_plugins/kibana/index.js",
+    "en": "title: 'Visualize'",
+    "jp": "title: '可視化'"
+  },
+  {
+    "path": "src/core_plugins/kibana/index.js",
+    "en": "title: 'Dashboard'",
+    "jp": "title: 'ダッシュボード'"
+  },
+  {
+    "path": "src/core_plugins/kibana/index.js",
+    "en": "title: 'Dev Tools'",
+    "jp": "title: 'ツール'"
+  },
+  {
+    "path": "src/core_plugins/kibana/index.js",
+    "en": "title: 'Management'",
+    "jp": "title: 'マネジメント'"
+  },
+  {
+    "path": "src/core_plugins/timelion/index.js",
+    "en": "title: 'Timelion'",
+    "jp": "title: 'タイムライン'"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Selected Fields",
+    "jp": "選択したフィールド"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Available Fields",
+    "jp": "選択可能フィールド"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Aggregatable\\n",
+    "jp": "集約可能\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Searchable\\n",
+    "jp": "検索可能\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Type\\n",
+    "jp": "タイプ\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Field name\\n",
+    "jp": "フィールド名\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Hide Missing Fields\\n",
+    "jp": "不足のフィールド非表示\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Reset Filters",
+    "jp": "フィルターリセット"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Add a filter",
+    "jp": "フィルター追加"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Search... (e.g. status:200 AND extension:PHP)",
+    "jp": "検索... (例：status:200 AND extension:PHP)"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Uses lucene query syntax\\n",
+    "jp": "Lucene検索文法で検索\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Last 15 minutes",
+    "jp": "直近15分"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "key:\"new\",description:\"New Search\"",
+    "jp": "key:\"新規\",description:\"New Search\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "key:\"save\",description:\"Save Search\"",
+    "jp": "key:\"保存\",description:\"Save Search\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "key:\"open\",description:\"Open Saved Search\"",
+    "jp": "key:\"オープン\",description:\"Open Saved Search\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "key:\"share\",description:\"Share Search\"",
+    "jp": "key:\"シェア\",description:\"Share Search\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "<span ng-show=\"filterEditor.filter.meta.isNew\">Add</span>",
+    "jp": "<span ng-show=\"filterEditor.filter.meta.isNew\">追加</span>"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "filterEditor.filter.meta.isNew\">Edit</span>\\n      filter\\n",
+    "jp": "filterEditor.filter.meta.isNew\">編集</span>\\nフィルター\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "<label class=\"kuiLabel\">\\n          Filter\\n",
+    "jp": "<label class=\"kuiLabel\">\\n          フィルター\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "placeholder=\"Fields...\">",
+    "jp": "placeholder=\"フィールド...\">"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Edit Query DSL\\n",
+    "jp": "編集QueryDSL検索\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Search filter values\\n",
+    "jp": "フィルター値で検索\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "for=\"filterEditorLabelInput\"\\n        >\\n          Label\\n",
+    "jp": "for=\"filterEditorLabelInput\"\\n        >\\n          ラベル\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "placeholder=\"Optional\"",
+    "jp": "placeholder=\"オプション\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "ng-click=\"filterEditor.onCancel()\"\\n      >\\n        Cancel\\n      </button>",
+    "jp": "ng-click=\"filterEditor.onCancel()\"\\n      >\\n        キャンセル\\n      </button>"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "ng-click=\"filterEditor.save()\"\\n      >\\n        Save\\n      </button>",
+    "jp": "ng-click=\"filterEditor.save()\"\\n      >\\n        保存\\n      </button>"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "<h2>Searching</h2>",
+    "jp": "<h2>検索</h2>"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "placeholder=\"Operators...\">\\n",
+    "jp": "placeholder=\"条件...\">\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "placeholder=\"Value...\"\\n",
+    "jp": "placeholder=\"値...\"\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Filters are built using the",
+    "jp": "お使いになったフィルター"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "<div class=\"kuiLocalDropdownTitle\">Save Search</div>",
+    "jp": "<div class=\"kuiLocalDropdownTitle\">検索保存</div>"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "title:\"New Saved Search\",description",
+    "jp": "title:\"新規検索\",description"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "class=\"kuiButton kuiButton--primary\"\\n  >\\n    Save\\n",
+    "jp": "class=\"kuiButton kuiButton--primary\"\\n  >\\n    保存\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "<div class=\"kuiLocalDropdownTitle\">Open Search</div>",
+    "jp": "<div class=\"kuiLocalDropdownTitle\">既存の検索</div>"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "tooltip=\"Reload Saved Search\"",
+    "jp": "tooltip=\"検索をリロード\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "nouns:\"saved searches\"",
+    "jp": "nouns:\"保存した検索\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "ng-attr-placeholder=\"{{ finder.properties.nouns | label }} Filter...\"\\n",
+    "jp": "ng-attr-placeholder=\"{{ finder.properties.nouns | label }}フィルター条件...\"\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "<span class=\"paginate-heading\">\\n        Name\\n",
+    "jp": "<span class=\"paginate-heading\">\\n        名称\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "ng-click=\"finder.manageObjects(finder.properties.name)\"\\n        >\\n          Manage {{ finder.properties.nouns }}\\n",
+    "jp": "ng-click=\"finder.manageObjects(finder.properties.name)\"\\n        >\\n          管理{{ finder.properties.nouns }}\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "class=\"kuiLocalDropdownTitle\"\\n    >\\n      Share saved {{share.objectType}}\\n",
+    "jp": "class=\"kuiLocalDropdownTitle\"\\n    >\\n      シェア保存した結果\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "You can share this URL with people to let them load the most recent saved version of this {{share.objectType}}.\\n",
+    "jp": "您可以通过分享下面的链接地址，让其它用户加载此查询最近保存的版本。\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Link\\n",
+    "jp": "リンク\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Copy\\n",
+    "jp": "コピー\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Share Snapshot\\n",
+    "jp": "スナップショットシェア\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Short URL\\n",
+    "jp": "ショットURL\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Long URL\\n",
+    "jp": "ロングURL\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Snapshot URLs encode the current state of the {{share.objectType}} in the URL itself. Edits to the saved {{share.objectType}} won\\'t be visible via this URL.",
+    "jp": "快照链接在链接本身中编码查询的当前状态，通过此链接编辑已保存的查询是无效的。"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "We recommend sharing shortened snapshot URLs for maximum compatibility. Internet Explorer has URL length restrictions, and some wiki and markup parsers don\\'t do well with the full-length version of the snapshot URL, but the short URL should work great.",
+    "jp": "我们建议使用短链接来分享快照以提供最大的兼容性，IE浏览器有URL长度限制并且对完整样式的快照链接解析效果不佳，但是短链接却可以很好的工作。"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "<div class=\"kuiLocalDropdownTitle\">Time Range</div>",
+    "jp": "<div class=\"kuiLocalDropdownTitle\">時間範囲/div>"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "quick\\n",
+    "jp": "快速\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "relative\\n",
+    "jp": "相対\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "absolute\\n",
+    "jp": "絶対\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Today\"",
+    "jp": "display:\"本日\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"This week\"",
+    "jp": "display:\"今週\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"This month\"",
+    "jp": "display:\"今月\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"This year\"",
+    "jp": "display:\"今年\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"The day so far\"",
+    "jp": "display:\"本日まで\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Week to date\"",
+    "jp": "display:\"今週まで\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Month to date\"",
+    "jp": "display:\"今月まで\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Year to date\"",
+    "jp": "display:\"今年まで\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Yesterday\"",
+    "jp": "display:\"昨日\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Day before yesterday\"",
+    "jp": "display:\"二日前\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"This day last week\"",
+    "jp": "display:\"先週の本日\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Previous week\"",
+    "jp": "display:\"先週\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Previous month\"",
+    "jp": "display:\"先月\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Previous year\"",
+    "jp": "display:\"去年\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 30 minutes\"",
+    "jp": "display:\"最近30分\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 1 hour\"",
+    "jp": "display:\"最近1時間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 4 hours\"",
+    "jp": "display:\"最近4時間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 12 hours\"",
+    "jp": "display:\"最近12時間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 24 hours\"",
+    "jp": "display:\"最近24時間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 7 days\"",
+    "jp": "display:\"最近7日間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 30 days\"",
+    "jp": "display:\"最近30日間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 60 days\"",
+    "jp": "display:\"最近60日間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 90 days\"",
+    "jp": "display:\"最近90日間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 6 months\"",
+    "jp": "display:\"最近6ヶ月\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 1 year\"",
+    "jp": "display:\"最近1年間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 2 years\"",
+    "jp": "display:\"最近2年間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Last 5 years\"",
+    "jp": "display:\"最近5年間\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Index Patterns\"",
+    "jp": "display:\"インデックスパターン\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Saved Objects\"",
+    "jp": "display:\"保存したプロジェクト\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "display:\"Advanced Settings\"",
+    "jp": "display:\"アドバンスト設定\""
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "<span>Create Index Pattern</span>",
+    "jp": "<span>インデックスパターン作成</span>"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "tooltip=\"Refresh field list\"\\n",
+    "jp": "tooltip=\"フィールドリフレッシュ\"\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "<span class=\"sr-only\">Reload field list</span>",
+    "jp": "<span class=\"sr-only\">フィールドリロード</span>"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "tooltip=\"Set as default index\"\\n",
+    "jp": "tooltip=\"デフォルトインデックスに設定\"\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "tooltip=\"Remove index pattern\"\\n",
+    "jp": "tooltip=\"インデックスパターン削除\"\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "<span>Time Filter field name</span>:",
+    "jp": "<span>時間フィルターする</span>:"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "This page lists every field in the <strong>{{::indexPattern.title}}</strong>\\n        index and the field\\'s associated core type as recorded by Elasticsearch.\\n        While this list allows you to view the core type of each field, changing\\n        field types must be done using Elasticsearch\\'s\\n        <a target=\"_window\" href=\"http://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html\">\\n          Mapping API\\n",
+    "jp": "此页面列出了Elasticsearch <strong>{{::indexPattern.title}}</strong>中\\n        记录的所有字段、索引和字段的相关类型。\\n        在此页允许您查看所有字段的字段类型的同时,\\n        改变字段类型必须使用Elasticsearch的\\n        <a target=\"_window\" href=\"http://www.elastic.co/guide/en/elasticsearch/reference/current/mapping.html\">\\n          Mapping API\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "placeholder=\"Filter\"\\n",
+    "jp": "placeholder=\"フィルター\"\\n"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "These fields can be used in the filter bar",
+    "jp": "这些字段可用于筛选器工具条"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "These fields can be used in visualization aggregations",
+    "jp": "这些字段可用于可视化聚合"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Fields that are excluded from _source when it is fetched",
+    "jp": "这些字段在获取时会从_source中排除"
+  },
+  {
+    "path": "/optimize/bundles/kibana.bundle.js",
+    "en": "Scroll to top\\n",
+    "jp": "トップ\\n"
+  }
+]
